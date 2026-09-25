@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/trade-compliance",
   "title": "Trade Compliance",
   "description": "Trade Compliance MCP — the two questions an importer asks that the tariff",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/trade-compliance",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-trade-compliance",

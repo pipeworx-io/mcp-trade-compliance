@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-trade-compliance",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Trade Compliance MCP — the two questions an importer asks that the tariff",
   "type": "module",
   "main": "src/index.ts",
@@ -24,5 +24,9 @@
   "devDependencies": {
     "typescript": "^5.9.3",
     "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-5bbb80b21cf8294bb373f1d61546b90e93d43f7d5f2eb27ba96e56c004825695",
+    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
   }
 }
