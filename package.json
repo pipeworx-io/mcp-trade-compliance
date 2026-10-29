@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-trade-compliance",
-  "version": "0.1.1",
-  "description": "Trade Compliance MCP — the two questions an importer asks that the tariff",
+  "version": "0.2.0",
+  "description": "Trade Compliance MCP — the two questions an importer asks that the tariff schedule alone cannot answer:",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-trade-compliance": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "trade-compliance"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-trade-compliance.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/trade-compliance",
   "pipeworx": {
-    "sourceHash": "v1-5bbb80b21cf8294bb373f1d61546b90e93d43f7d5f2eb27ba96e56c004825695",
-    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+    "mode": "gateway",
+    "slug": "trade-compliance",
+    "gatewaySlug": "trade-compliance",
+    "sourceHash": "v1-54ce4eda4169d1d3f517167c6fad304ea3fb623aa106920b8266c339da591dde",
+    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
   }
 }

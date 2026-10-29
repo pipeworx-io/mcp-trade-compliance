@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/trade-compliance",
   "title": "Trade Compliance",
-  "description": "Trade Compliance MCP — the two questions an importer asks that the tariff",
-  "version": "0.1.1",
+  "description": "Trade Compliance MCP — the two questions an importer asks that the tariff schedule alone cannot…",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/trade-compliance",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-trade-compliance",
