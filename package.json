@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-trade-compliance",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Trade Compliance MCP — the two questions an importer asks that the tariff schedule alone cannot answer:",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "trade-compliance",
     "gatewaySlug": "trade-compliance",
-    "sourceHash": "v1-54ce4eda4169d1d3f517167c6fad304ea3fb623aa106920b8266c339da591dde",
-    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
+    "sourceHash": "v1-cde84ccb7c81e7d77e45e508e9876bd9b09e770dbdb0da192b83a6b59960c102",
+    "sourceCommit": "868e119d526d5409447b7ee2149afba7eb9d2593"
   }
 }

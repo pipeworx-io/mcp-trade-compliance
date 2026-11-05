@@ -2,7 +2,7 @@
 
 US import compliance — CBP customs ruling letters (CROSS) and antidumping / countervailing duty (AD/CVD) orders. Keyless, no auth.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1857+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1866+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 Answers the two questions the tariff schedule alone cannot: *how has Customs classified this product before* and *is there a trade-remedy duty on it from this country*.
 
@@ -98,7 +98,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1857+ data sources. The
+Both URLs reach the same gateway and the same 1866+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
